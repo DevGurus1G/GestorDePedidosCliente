@@ -28,7 +28,7 @@ const clienteStore = useClienteStore(); // Asegúrate de inicializar la tienda
 
 const login = async () => {
   try {
-    const response = await fetch(`http://killercervezas.blog/api/login/${code.value}`)
+    const response = await fetch(`https://killercervezas.blog/api/login/${code.value}`)
     const data = await response.json()
 
     if (data.success) {
