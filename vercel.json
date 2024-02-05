@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "http://killercervezas.blog/:1"
-    }
-  ]
-}
