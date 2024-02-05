@@ -67,7 +67,7 @@ onMounted(() => {
     (async () => {
       try {
         const response = await fetch(
-          `http://killercervezas.blog/api/cliente/${sessionStorage.getItem('codigo')}`
+          `https://killercervezas.blog/api/cliente/${sessionStorage.getItem('codigo')}`
         );
         const data = await response.json();
 
@@ -120,7 +120,7 @@ const updateCliente = async () => {
     }
 
     const response = await fetch(
-      `http://killercervezas.blog/api/cliente/update/${sessionStorage.getItem('codigo')}`,
+      `https://killercervezas.blog/api/cliente/update/${sessionStorage.getItem('codigo')}`,
       {
         method: 'POST',
         headers: {

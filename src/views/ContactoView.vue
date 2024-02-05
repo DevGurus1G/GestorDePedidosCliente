@@ -111,7 +111,7 @@ const nuevoCliente = async () => {
       return
     }
 
-    const response = await fetch('http://killercervezas.blog/api/cliente/registrar/', {
+    const response = await fetch('https://killercervezas.blog/api/cliente/registrar/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
